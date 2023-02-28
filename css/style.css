@@ -1,0 +1,119 @@
+:root{
+    --mainColor : #333333 ;
+    --secondaryColor : #4A4A4A;
+    --acsentColer: #007A14;
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+/* Nav Bar */
+.nav-link.active{
+    color: var(--acsentColer) !important;
+    font-weight: 700;
+}
+/* end Nav Bar */
+
+section h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* Hero */
+.color-acsent{
+    color: var(--acsentColer);
+}
+
+#Hero{
+    color: #fff;
+    min-height: 100vh;
+}
+
+#Hero h1{
+    font-size: 3rem;
+}
+
+#Hero h2{
+    font-weight: 100;
+}
+
+#Hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1{
+    background-color: var(--acsentColer);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover{
+    box-shadow: 0 0 5px rgb(66, 255, 41);
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.social-icon svg{
+    margin-right: 0.7rem;
+    margin-bottom: 10px;
+}
+/* end Hero */
+
+/* About */
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColer);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about{
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+/* End About */
+
+/* Skill */
+#skill{
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skill img{
+    width: 7%;
+    margin: 10px;
+}
+
+#skill .card{
+    background-color: #636161;
+    height: 340px;
+}
+
+#skill .card:hover{
+    background-color: var(--acsentColer);
+}
+
+.skill-konten{
+    margin-top: 120px;
+}
+/* End Skill */
