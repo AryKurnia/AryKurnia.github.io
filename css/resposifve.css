@@ -43,12 +43,16 @@
 
 @media screen and (max-width : 576px) {
 
-
-
-
+    .social-icon a {
+        font-size: .9rem !important;
+    }
 
 }
 
 @media screen and (max-width : 350px) {
-    
+
+    .social-icon a {
+        font-size: .6rem !important;
+    }
+
 }
