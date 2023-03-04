@@ -123,3 +123,15 @@ hr {
     margin-top: 120px;
 }
 /* End Skill */
+
+/* Portofolio */
+#portofolio {
+    background-color: var(--secondaryColor);
+}
+/* End Portofolio */
+
+/* Fotter */
+#fotter p{
+    color: #fff;
+}
+/* End Fotter */
