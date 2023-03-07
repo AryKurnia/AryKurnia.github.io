@@ -1,7 +1,7 @@
 :root{
     --mainColor : #333333 ;
     --secondaryColor : #4A4A4A;
-    --acsentColer: #007A14;
+    --acsentColer: #00B81E;
 }
 
 body{
@@ -18,7 +18,7 @@ body{
 .nav-dark{
     background-color: var(--secondaryColor) !important;
     z-index: 10;
-    transition: .3s;
+    transition: 0.3s ease-in-out;
 }
 /* end Nav Bar */
 
