@@ -9,6 +9,11 @@
 }
 
 @media screen and (max-width : 768px) {
+
+    hr {
+        width: 230px ;
+    }
+
     #Hero img {
         width: 60%;
     }
@@ -24,11 +29,14 @@
     .social-icon {
         left: 50%;
         transform: translate(-50%);
+        text-align: center;
     }
 
-    #about p {
+    #about .isi {
         text-align: justify !important;
     }
+
+
 
     #skill .card h3 {
         font-size: 1.3rem;

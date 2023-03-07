@@ -75,6 +75,11 @@ section h1{
 .social-icon svg{
     margin-right: 0.7rem;
     margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon svg:hover{
+    transform: scale(1.2) rotate(7deg);
 }
 /* end Hero */
 
@@ -106,7 +111,7 @@ hr {
 }
 
 #skill img{
-    width: 7%;
+    /* width: 7%; */
     margin: 10px;
 }
 
