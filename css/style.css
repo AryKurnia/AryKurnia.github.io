@@ -1,7 +1,8 @@
 :root{
     --mainColor : #333333 ;
     --secondaryColor : #4A4A4A;
-    --acsentColer: #00B81E;
+    --elemenColor : #007A14;
+    --acsentColor: #00B81E;
 }
 
 body{
@@ -12,7 +13,7 @@ body{
 
 /* Nav Bar */
 .nav-link.active{
-    color: var(--acsentColer) !important;
+    color: var(--acsentColor) !important;
     font-weight: 700;
 }
 .nav-dark{
@@ -29,7 +30,7 @@ section h1{
 
 /* Hero */
 .color-acsent{
-    color: var(--acsentColer);
+    color: var(--acsentColor);
 }
 
 #Hero{
@@ -53,7 +54,7 @@ section h1{
 
 /* CTA */
 .btn-custom1{
-    background-color: var(--acsentColer);
+    background-color: var(--elemenColor);
     text-align: center;
     color: #fff;
     min-width: 150px;
@@ -87,7 +88,7 @@ section h1{
 hr {
     width: 35%;
     height: 5px;
-    color: var(--acsentColer);
+    color: var(--acsentColor);
     margin: 0 auto;
     opacity: 100%;
 }
@@ -121,7 +122,7 @@ hr {
 }
 
 #skill .card:hover{
-    background-color: var(--acsentColer);
+    background-color: var(--elemenColor);
 }
 
 .skill-konten{
