@@ -21,6 +21,29 @@ body{
     z-index: 10;
     transition: 0.3s ease-in-out;
 }
+li{
+    position: relative;
+}
+
+li a{
+    transition: color.1s;
+}
+
+li a::after{
+    content: '';
+    background-color: var(--acsentColor);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    transition: width .3s;
+}
+
+li a:hover::after{
+    width: 100%;
+    background-color: var(--acsentColor);
+}
 /* end Nav Bar */
 
 section h1{
