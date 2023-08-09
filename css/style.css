@@ -99,6 +99,7 @@ section h1{
 }
 
 .social-icon svg{
+    fill: #fff;
     margin-right: 0.7rem;
     margin-bottom: 10px;
     transition: transform 0.3s ease-in-out;

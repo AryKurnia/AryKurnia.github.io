@@ -1,3 +1,18 @@
 {
-    "liveServer.settings.port": 5501
+    "editor.tokenColorCustomizations":{
+        "[One Dark Pro]": {
+          "textMateRules": [
+            {
+              "scope":["source.python"],
+              "settings": {
+                "foreground": "#e06c75"
+              }
+            }
+          ]
+        }
+    }
 }
+
+// {
+//     "liveServer.settings.port": 5501
+// }
