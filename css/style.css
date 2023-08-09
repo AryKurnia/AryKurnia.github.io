@@ -88,6 +88,11 @@ section h1{
     font-size: 1.2rem;
 }
 
+.btn-custom1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .btn-custom1:hover{
     box-shadow: 0 0 5px rgb(66, 255, 41);
 }
@@ -204,7 +209,7 @@ hr {
 }
 
 .contact-form button:hover {
-    background-color: #555;
+    background-color: var(--secondaryColor);
 }
 /* End Contak Kami */
 
